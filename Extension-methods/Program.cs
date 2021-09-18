@@ -1,4 +1,5 @@
 ﻿using System;
+//using Extension_methods.Extensions;
 
 namespace Extension_methods
 {
@@ -6,7 +7,8 @@ namespace Extension_methods
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DateTime dt = new DateTime(2021, 09, 18, 14, 20, 44);
+            Console.WriteLine(dt.ElapsedTime());
         }
     }
 }
